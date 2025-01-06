@@ -45,3 +45,43 @@ section {
     margin: auto;
 }
 
+ .hero {
+   text-align: center;
+   padding: 100px 20px;
+   background: url('sixteen-miles-out-0I75875sRVU-unsplash.jpeg') no-repeat center center/cover;
+   color: #2C2C2C;
+}
+
+.hero h1 {
+   font-size: 3em;
+   margin-bottom: 10px;
+}
+
+.hero p {
+   font-size: 1.5em;
+}
+
+footer {
+   background-color: #333;
+   color: white;
+   text-align: center;
+   padding: 10px 0;
+   position: relative;
+   bottom: 0;
+   width: 100%;
+}
+
+@media (max-width: 768px) {
+   .hero h1 {
+       font-size: 2em;
+   }
+
+   .hero p {
+       font-size: 1.2em;
+   }
+
+   nav ul li {
+       float: none;
+       text-align: center;
+   }
+
